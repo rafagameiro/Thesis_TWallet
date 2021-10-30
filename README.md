@@ -20,7 +20,7 @@ The following figure describes the architecutre of our solution
 Our solution is built on different components splitted in two main parts:
 
 - The Secure World Part that contains a set of small components, which are the basis for the TWallet System:
-    - The TEE Adaptation and Isolation layer is responsible for intercepting the requests done to the secure components, and perform some validations and sub operations before and after redirecting them into the specific components.
+    - The TEE Adaptation layer is responsible for intercepting the requests done to the secure components, and perform some validations and sub operations before and after redirecting them into the specific components.
     - The Logging Services generates a log of the operations executed in the different secure components.
     - The Monitoring Service is responsible for the monitoring and filtering of operations requested to the other secure components.
     - The Secure Storage is responsible for the storage of data regarding the logged wallet account.
@@ -33,10 +33,10 @@ Our solution is built on different components splitted in two main parts:
 
 To properly analyse and if possible experiment my developed solution and proptotype, the following repositories contain the segments of my thesis.
 
-- TWallet System - link TBD
-- TWallet Developed Prototypes - link TBD
-- TWallet Benchmark - link TBD
-- TWallet Thesis Report - link TBD
+- [TWallet System][twallet_system]
+- [TWallet Developed Prototypes][twallet_prototypes]
+- [TWallet Benchmark][twallet_benchmark]
+- [TWallet Thesis Report][thesis_report] 
 
 ## Pre-requisites
 
@@ -51,3 +51,8 @@ In order to properly observe or evaluate the TWallet system, must meet this requ
 2. H. Raj et al. "fTPM: A Software-Only Implementation of a TPM Chip". In:USENIXSecurity Symposium. 2016 
 3. 96Boards.HiKey960. 2021. url:https://www.96boards.org/product/hikey960/
 4. Linaro. AOSP in OP-TEE: Open Portable Trusted Execution Environment. 2021. url:https://optee.readthedocs.io/en/latest/building/aosp/aosp.html
+
+[twallet_system]: <https://github.com/rafagameiro/TWallet_system>
+[twallet_prototypes]: <https://github.com/rafagameiro/TWallet_prototypes>
+[twallet_benchmark]: <https://github.com/rafagameiro/TWallet_benchmark>
+[thesis_report]: <https://github.com/rafagameiro/Thesis_TWallet_report>
