@@ -1,6 +1,6 @@
 # TWallet - ARM TrustZone Enabled Trustable Mobile Wallet: A Case for Cryptocurrency Wallets
 ---
-The purpose of this repository is to provide a simple explanation of the work done during my MSc thesis [[1]](##References). With that in mind, this repository also contains a set of sublinks that point to the different components that were essential throughout this project development.
+The purpose of this repository is to provide a simple explanation of the work done during my MSc thesis [[1]](#references). With that in mind, this repository also contains a set of sublinks that point to the different components that were essential throughout this project development.
 
 
 ## Abstract
@@ -15,7 +15,7 @@ In this dissertation the goal is to propose a solution for a generic model, for 
 ---
 The following figure describes the architecutre of our solution
 
-![architecture figure](<figures/twallet_architecture.png>)
+![architecture figure](figures/twallet_architecture.PNG?raw=true)
 
 Our solution is built on different components splitted in two main parts:
 
@@ -25,7 +25,7 @@ Our solution is built on different components splitted in two main parts:
     - The Monitoring Service is responsible for the monitoring and filtering of operations requested to the other secure components.
     - The Secure Storage is responsible for the storage of data regarding the logged wallet account.
     - The Authentication Service provides a storage for sets of credentials, needed for wallet sign in.
-    - The Attestation Service, based on TPM Attestion Process [[2]](##References), must provide and integrity hash check regarding our secure components. 
+    - The Attestation Service, based on TPM Attestion Process [[2]](#references), must provide and integrity hash check regarding our secure components. 
 - The Normal World Part correspondes to the TWallet Framework, which is the service responsible for enabling communication between the applications that run on the Normal World side, and all secure components located in the Secure World.
 - Not shown in this figure, we also developed a benchmark to properly evaluate an measure the performance of specific operations performed by the TWallet System
 
@@ -42,8 +42,8 @@ To properly analyse and if possible experiment my developed solution and proptot
 ---
 In order to properly observe or evaluate the TWallet system, must meet this requirements:
 
-- It is highly recommended to have an Hikey960 Board [[3]](##References), as this was the board used during the entire design, implementation, and evaluation of the solution
-- The System setup inside the Hikey board must be an AOSP + OP-TEE configuration [[4]](##References). The steps for its installation can be found in OP-TEE Official Documentation and my MSc Thesis Report Annex "_Hikey960 AOSP+OP-TEE Setup_"
+- It is highly recommended to have an Hikey960 Board [[3]](#references), as this was the board used during the entire design, implementation, and evaluation of the solution
+- The System setup inside the Hikey board must be an AOSP + OP-TEE configuration [[4]](#references). The steps for its installation can be found in OP-TEE Official Documentation and my MSc Thesis Report Annex "_Hikey960 AOSP+OP-TEE Setup_"
 
 ## References
 ---
